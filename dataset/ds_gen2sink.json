@@ -1,0 +1,23 @@
+{
+	"name": "ds_gen2sink",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_sink",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "2022/03/14/true files",
+				"fileSystem": "adlsgen2output"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

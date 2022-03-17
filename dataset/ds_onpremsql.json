@@ -1,0 +1,17 @@
+{
+	"name": "ds_onpremsql",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_sqlsource",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "ACCOUNT",
+			"table": "AccountType"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

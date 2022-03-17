@@ -1,0 +1,16 @@
+{
+	"name": "ls_sqlsource",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=False;data source=ABHIJAY9184\\AZURE_SQLSERVER;initial catalog=Banking_db;user id=sa",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI1Mjc2MGYwYS1iMzc3LTQ1NDctYWUwMy0zMzU3ZGFiN2VjM2MiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "selfhosted-IR",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
