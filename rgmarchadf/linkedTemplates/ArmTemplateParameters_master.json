@@ -5,6 +5,36 @@
 		"factoryName": {
 			"value": "rgmarchadf"
 		},
+		"ds_adlsgen2sink_accountKey": {
+			"value": ""
+		},
+		"ls_azuresql_connectionString": {
+			"value": ""
+		},
+		"ls_blobsource_connectionString": {
+			"value": ""
+		},
+		"ls_blobtoadls_connectionString": {
+			"value": ""
+		},
+		"ls_gen2sink_accountKey": {
+			"value": ""
+		},
+		"ls_sink_accountKey": {
+			"value": ""
+		},
+		"ls_sqlsource_connectionString": {
+			"value": ""
+		},
+		"ds_adlsgen2sink_properties_typeProperties_url": {
+			"value": "https://rgmarchadlsgen2.dfs.core.windows.net"
+		},
+		"ls_gen2sink_properties_typeProperties_url": {
+			"value": "https://rgmarchadlsgen2.dfs.core.windows.net"
+		},
+		"ls_sink_properties_typeProperties_url": {
+			"value": "https://rgmarchadlsgen2.dfs.core.windows.net"
+		},
 		"containerUri": {
 			"value": ""
 		},
